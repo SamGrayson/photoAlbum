@@ -22,9 +22,11 @@ var imageBlocks = [
   {
     title: "album 6",
     imgSrc: "http://www.placecage.com/190/210"
-  },
-
-
+  }
+  // {
+  //   title: "album 7",
+  //   imgSrc: "http://www.placecage.com/190/210"
+  // }
 ];
 
 var numOfAlbums = imageBlocks.length;
@@ -54,6 +56,10 @@ var albums = [];
   albums.push({
    title: "album 6",
   });
+
+  // albums.push({
+  //  title: "album 7",
+  // });
 
   albums[0].pictures = [
    {
@@ -120,6 +126,39 @@ var albums = [];
      rel: '6'
    },
  ];
+
+ // albums[6].pictures = [
+ //   {
+ //     url: "http://www.placecage.com/310/300",
+ //     title: "picture 1",
+ //     rel: '1'
+ //   },
+ //   {
+ //     url: "http://www.placecage.com/310/300",
+ //     title: "picture 2",
+ //     rel: '2'
+ //   },
+ //   {
+ //     url: "http://www.placecage.com/320/310",
+ //     title: "picture 3",
+ //     rel: '3'
+ //   },
+ //   {
+ //     url: "http://www.placecage.com/300/310",
+ //     title: "picture 4",
+ //     rel: '4'
+ //   },
+ //   {
+ //     url: "http://www.placecage.com/310/320",
+ //     title: "picture 5",
+ //     rel: '5'
+ //   },
+ //   {
+ //     url: "http://www.placecage.com/320/330",
+ //     title: "picture 6",
+ //     rel: '6'
+ //   },
+ // ];
 
 var nav = {};
 

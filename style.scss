@@ -389,7 +389,7 @@ h2, a {
   color: whitesmoke;
 }
 
-.left:hover {
+.fa-chevron-left:hover {
   cursor: pointer;
   -webkit-animation-name: colorFade;
   -webkit-animation-iteration-count: infinite;
@@ -397,7 +397,7 @@ h2, a {
   -webkit-animation-duration: 5s;
 }
 
-.right:hover {
+.fa-chevron-right:hover {
   cursor: pointer;
   -webkit-animation-name: colorFade;
   -webkit-animation-iteration-count: infinite;
@@ -415,4 +415,17 @@ h2, a {
   100% {
     color: rgba(83, 89, 111,0.5);
   }
+}
+
+@media (max-width: 1000px) {
+
+  .pictured {
+    position: relative;
+    background-color: rgba(83, 89, 111, 0.8);
+    height: 275px;
+    width: 50%;
+    margin: 10px 1%;
+ }
+
+
 }
