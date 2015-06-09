@@ -68,8 +68,6 @@ var loadPics = function() {
   $(".picContainered").html(tmplAlbmString);
   }
 
-});
-
 /* INDIVIDUAL PICTURE */
 
 $('.picContainered').on('click', '.pictured', function(event) {
@@ -127,3 +125,5 @@ imageBlocks.forEach(function(el){
 });
 
 $('.linkWrapper').append(tmplNavString);
+
+});

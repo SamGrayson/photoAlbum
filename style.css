@@ -137,7 +137,6 @@ h2, a {
 
 /* ALBUM PAGE */
 .albumTop {
-  float: right;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -156,6 +155,10 @@ h2, a {
   color: whitesmoke;
   width: 75%;
   background-color: rgba(68, 72, 87, 0.8); }
+
+.content {
+  height: 100%;
+  overflow: scroll; }
 
 .navLeft {
   position: relative;
@@ -234,7 +237,6 @@ h2, a {
   color: whitesmoke; }
 
 .contentWrapper {
-  float: right;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -367,11 +369,60 @@ h2, a {
   100% {
     color: rgba(83, 89, 111, 0.5); } }
 @media (max-width: 1000px) {
-  .pictured {
+  .pageWrapAlbum .container {
+    height: 100%; }
+
+  .pageWrapIndividual .container {
+    height: 100%; }
+
+  .contentWrap .picContainer .tag h2 {
+    font-size: 3vw; }
+
+  .contentWrapper .picContainered .pictured {
     position: relative;
     background-color: rgba(83, 89, 111, 0.8);
-    height: 275px;
-    width: 50%;
-    margin: 10px 1%; } }
+    height: 225px;
+    width: 40%;
+    margin: 10px 1%; }
+
+  h1 {
+    font-size: 8vw; }
+
+  h2, a {
+    margin-top: 10px;
+    padding: 0;
+    font-size: 3vw;
+    text-decoration: none; }
+
+  .navLeft .linkWrapper .albumLink {
+    font-size: 2vw; }
+
+  .navLeft .homeButton h1 {
+    font-size: 2.5vw; }
+
+  .contentWrapper .picContainered .pictured .picTag {
+    height: 50px; } }
+@media (max-width: 700px) {
+  .contentWrapper .picContainered .pictured {
+    position: relative;
+    background-color: rgba(83, 89, 111, 0.8);
+    height: 200px;
+    width: 60%;
+    margin: 10px 1%; }
+
+  h1 {
+    font-size: 8vw; }
+
+  h2, a {
+    margin-top: 10px;
+    padding: 0;
+    font-size: 3vw;
+    text-decoration: none; }
+
+  .right {
+    right: 5%; }
+
+  .left {
+    left: 5%; } }
 
 /*# sourceMappingURL=style.css.map */
