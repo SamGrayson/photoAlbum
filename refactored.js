@@ -39,6 +39,7 @@ var page = {
 
     page.loadAlbums(tmplString,compiledTmpl,$('.contentWrap'));
     page.loadAlbums(tmplNavString,compiledNavTmpl,$('.linkWrapper'));
+    page.loadAlbums(tmplNavString,compiledNavTmpl,$('.navAcross'));
 
   },
   initEvents: function(arguments) {
@@ -75,6 +76,9 @@ var page = {
       page.removeAddActive($('.navLeft'),$('.top'));
     });
 
+    $('.homeButtonTwo').on('click', function(event) {
+      page.removeAddActive($('.navLeft'),$('.top'));
+    });
 
     ////////////////////////
     /* INDIVIDUAL PICTURE */

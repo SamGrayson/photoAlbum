@@ -136,6 +136,9 @@ h2, a {
     background-color: #53596f; }
 
 /* ALBUM PAGE */
+.homeButtonTwo {
+  display: none; }
+
 .albumTop {
   position: relative;
   display: -webkit-box;
@@ -155,6 +158,58 @@ h2, a {
   color: whitesmoke;
   width: 75%;
   background-color: rgba(68, 72, 87, 0.8); }
+
+.navAcrossWrapper {
+  display: none; }
+
+.navAcross {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  height: 100px;
+  margin: 10px auto 30px auto;
+  text-align: center;
+  color: black;
+  width: 75%;
+  background-color: black; }
+  .navAcross .linkAcross {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 30%;
+    background-color: whitesmoke;
+    margin: 5px;
+    text-align: center;
+    font-size: 3vw;
+    font-style: italic; }
+    .navAcross .linkAcross:hover {
+      cursor: pointer;
+      color: whitesmoke;
+      background-color: #53596f; }
 
 .content {
   height: 100%;
@@ -272,7 +327,8 @@ h2, a {
       background-color: rgba(83, 89, 111, 0.8);
       height: 275px;
       width: 30%;
-      margin: 10px 1%; }
+      margin: 10px 1%;
+      padding: 5px; }
       .contentWrapper .picContainered .pictured .picTag {
         position: absolute;
         width: 100%;
@@ -403,11 +459,26 @@ h2, a {
   .contentWrapper .picContainered .pictured .picTag {
     height: 50px; } }
 @media (max-width: 700px) {
+  .albumTop {
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 80px; }
+
+  .navAcross {
+    width: 100%;
+    margin-top: 0;
+    background-color: rgba(68, 72, 87, 0.8);
+    height: 120px; }
+
+  .contentWrapper {
+    width: 100%; }
+
   .contentWrapper .picContainered .pictured {
     position: relative;
     background-color: rgba(83, 89, 111, 0.8);
     height: 200px;
-    width: 60%;
+    width: 40%;
     margin: 10px 1%; }
 
   h1 {
@@ -423,6 +494,63 @@ h2, a {
     right: 5%; }
 
   .left {
-    left: 5%; } }
+    left: 5%; }
+
+  .contentWrap .picContainer {
+    width: 40%; }
+
+  .navAcrossWrapper {
+    display: block; }
+
+  .navLeft {
+    display: none; }
+
+  .homeButtonTwo {
+    display: block;
+    height: 50px;
+    background-color: rgba(68, 72, 87, 0.8);
+    width: 100%;
+    top: 5%;
+    left: 10%;
+    text-align: center;
+    color: whitesmoke; }
+    .homeButtonTwo h1 {
+      font-size: 5vw; }
+    .homeButtonTwo:hover {
+      background-color: #444857;
+      cursor: pointer; } }
+@media (max-width: 450px) {
+  h2, a {
+    font-size: 5vw; }
+
+  h1 {
+    font-size: 15vw; }
+
+  .contentWrap .picContainer {
+    width: 90%; }
+
+  .contentWrap .picContainer .tag h2 {
+    font-size: 6vw; }
+
+  .contentWrapper .picContainered .pictured {
+    width: 80%; }
+
+  .right {
+    right: 15%;
+    top: 250px; }
+
+  .left {
+    left: 15%;
+    top: 250px; }
+
+  .contentWrapped {
+    margin-top: 120px; }
+
+  .navAcross {
+    height: 170px; }
+
+  .navAcross .linkAcross {
+    width: 40%;
+    font-size: 4vw; } }
 
 /*# sourceMappingURL=style.css.map */

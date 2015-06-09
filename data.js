@@ -127,6 +127,138 @@ var albums = [];
    },
  ];
 
+ albums[2].pictures = [
+   {
+     url: "http://www.placecage.com/310/320",
+     title: "picture 1",
+     rel: '1'
+   },
+   {
+     url: "http://www.placecage.com/310/300",
+     title: "picture 2",
+     rel: '2'
+   },
+   {
+     url: "http://www.placecage.com/350/310",
+     title: "picture 3",
+     rel: '3'
+   },
+   {
+     url: "http://www.placecage.com/300/310",
+     title: "picture 4",
+     rel: '4'
+   },
+   {
+     url: "http://www.placecage.com/310/350",
+     title: "picture 5",
+     rel: '5'
+   },
+   {
+     url: "http://www.placecage.com/310/330",
+     title: "picture 6",
+     rel: '6'
+   },
+ ];
+
+ albums[3].pictures = [
+   {
+     url: "http://www.placecage.com/300/300",
+     title: "picture 1",
+     rel: '1'
+   },
+   {
+     url: "http://www.placecage.com/310/300",
+     title: "picture 2",
+     rel: '2'
+   },
+   {
+     url: "http://www.placecage.com/350/310",
+     title: "picture 3",
+     rel: '3'
+   },
+   {
+     url: "http://www.placecage.com/300/310",
+     title: "picture 4",
+     rel: '4'
+   },
+   {
+     url: "http://www.placecage.com/310/350",
+     title: "picture 5",
+     rel: '5'
+   },
+   {
+     url: "http://www.placecage.com/310/330",
+     title: "picture 6",
+     rel: '6'
+   },
+ ];
+
+ albums[4].pictures = [
+   {
+     url: "http://www.placecage.com/310/350",
+     title: "picture 1",
+     rel: '1'
+   },
+   {
+     url: "http://www.placecage.com/300/300",
+     title: "picture 2",
+     rel: '2'
+   },
+   {
+     url: "http://www.placecage.com/300/310",
+     title: "picture 3",
+     rel: '3'
+   },
+   {
+     url: "http://www.placecage.com/315/310",
+     title: "picture 4",
+     rel: '4'
+   },
+   {
+     url: "http://www.placecage.com/310/320",
+     title: "picture 5",
+     rel: '5'
+   },
+   {
+     url: "http://www.placecage.com/320/320",
+     title: "picture 6",
+     rel: '6'
+   },
+ ];
+
+ albums[5].pictures = [
+   {
+     url: "http://www.placecage.com/320/300",
+     title: "picture 1",
+     rel: '1'
+   },
+   {
+     url: "http://www.placecage.com/310/300",
+     title: "picture 2",
+     rel: '2'
+   },
+   {
+     url: "http://www.placecage.com/350/310",
+     title: "picture 3",
+     rel: '3'
+   },
+   {
+     url: "http://www.placecage.com/300/310",
+     title: "picture 4",
+     rel: '4'
+   },
+   {
+     url: "http://www.placecage.com/320/320",
+     title: "picture 5",
+     rel: '5'
+   },
+   {
+     url: "http://www.placecage.com/300/330",
+     title: "picture 6",
+     rel: '6'
+   },
+ ];
+
  // albums[6].pictures = [
  //   {
  //     url: "http://www.placecage.com/310/300",
@@ -163,7 +295,7 @@ var albums = [];
 var nav = {};
 
 nav.navButtons = [
-  "<div class='albumLink' rel='<%= title %>'",
+  "<div class='albumLink linkAcross' rel='<%= title %>'",
     "<h1><%= title %></h1>",
   "</div>"
 ].join("");
